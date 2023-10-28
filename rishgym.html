@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rish's gym</title>
+  </head>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      background: url("img/bg.jpg");
+      background-size: 1500px;
+      color: aliceblue;
+    }
+    .left {
+      border: 3px solid red;
+      display: inline-block;
+      left: 18px;
+      top: 20px;
+      position: absolute;
+      border-radius: 60px;
+    }
+    .mid {
+      /* border: 3px solid rgb(18, 160, 37); */
+      display: block;
+      width: 40%;
+      margin: 20px auto;
+      border-radius: 65px;
+      /* background-color: rgb(15, 10, 5); */
+    }
+    .right {
+      /* border: 3px solid rgb(50, 25, 175); */
+      display: inline-block;
+      position: absolute;
+      right: 10px;
+      top: 20px;
+    }
+    .img {
+      width: 60px;
+    }
+    .top li {
+      display: inline-block;
+      padding: 23px 23px;
+    }
+    .top a {
+      text-decoration: none;
+      color: aliceblue;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      font-size: larger;
+    }
+    .top a:hover {
+      color: yellow;
+      text-decoration: underline;
+    }
+    #search {
+      border-radius: 344px;
+      width: 56px;
+    }
+    .btn {
+      border-radius: 455px;
+      width: 55px;
+    }
+    /* .btn:hover{ */
+    /* background-color: green; */
+    /* color: rgb(178, 207, 232); */
+
+    /* } */
+    #l {
+      top: 74px;
+      position: relative;
+      color: brown;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      left: 3px;
+    }
+    .img:hover {
+      filter: invert(100%);
+    }
+    #l:hover {
+      color: rgb(161, 90, 9);
+    }
+    .btn {
+      width: 116px;
+      padding: 4px 5px;
+      margin: 41px 8px;
+      border-radius: 70px;
+      /* border: 2px solid yellow; */
+      size: 40px 40px;
+      font-size: large;
+      background-color: black;
+      color: brown;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
+    .btn:hover {
+      /* background-color: transparent; */
+      cursor: pointer;
+      border: 0;
+      text-decoration: underline;
+      color: rgb(213, 113, 12);
+    }
+    .form{
+        border: 2px solid white;
+    margin: 65px 15px;
+    /* padding: 3px; */
+    text-align: center;
+    width: 22%;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    border-radius: 49px;
+        
+    }
+    .h{
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+        padding: 15px;
+        margin: 3px;
+    }
+    .form button{
+        background-color: yellow;
+        border-radius: 32px;
+        margin: 13px 3px;
+    }
+    .txt{
+        margin: 3px 3px;
+        padding: 3px;
+        text-align: center;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+        border-radius: 34px;
+        width: 50%;
+    }
+    .chat{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 3%;
+    }
+    
+  </style>
+  
+  <body>
+    <header class="head">
+      <div class="left"><img src="img/logo.png" alt="" class="img" /></div>
+      <div id="l">RISH'S GYM</div>
+      <div class="mid">
+        <ul class="top">
+          <li><a href="">Home</a></li>
+          <li><a href="">Insights</a></li>
+          <li><a href="">Plans</a></li>
+          <li><a href="">Branches</a></li>
+          <li><a href="">About us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <input type="button" value="JOIN US" class="btn" />
+        <input type="button" value="FREE TRAIL" class="btn" />
+      </div> 
+    </header>
+    <div class="form">
+        <h2 class="h">Special offer join now!!!</h2>
+      <form action="noaction.php">
+        <input type="text" name="" placeholder="enter your name" id="" class="txt" >
+        <input type="text" name="" placeholder="enter your phone" id="" class="txt">
+        <input type="text" name="" placeholder="enter your city" id="" class="txt">
+        <input type="text" name="" placeholder="enter your age" id="" class="txt">
+        <br>
+        <button>submit</button>
+      </form>
+    </div>
+    <div class="chat">
+        <a href=""> <img src="img/chat.png" alt="" class="chat"></a>
+    </div>
+  </body>
+</html>
